@@ -138,9 +138,13 @@ def load_data(city, month, day):
 
 def fill_missing_values(df):
     """
-    This function iterates through every coloumn in the data to detect missing values
-    if missing value is found in any coloumn, this function also deals with the missing values
-    based on the data type of the coloumn
+    This function iterates through every coloumn in the data to detect missing values.
+    If missing value is found in any coloumn, it deals with the missing values
+    based on the data type of the coloumn.
+
+    Dealing with missing values:
+    - Backfill method to replace missing values in coloumns with data type 'int'
+    - Replace missing values with 'not specified' in coloumns with data type 'str' 
 
     """
     print("Checked for missing values ...............")
