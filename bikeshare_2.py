@@ -52,8 +52,8 @@ def get_filters():
                 print()
                 print("Sorry, I didn't understand that, kindly check your input and try again")
                 print('. '*10)
-                check = input("Please type YES to try again or type any other value to exit this program:  ")
-                if check.lower()  != 'yes':
+                check = input("Please type YES to try again or type any other value to exit this program:  ").lower()
+                if check != 'yes':
                     sys.exit("********The program has been exited successfuly********")
             else:
                 break
