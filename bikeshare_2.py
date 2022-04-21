@@ -53,8 +53,8 @@ def get_filters():
                 print()
                 print("Sorry, I didn't understand that, kindly check your input and try again")
                 print('. '*10)
-                check = input("Please type YES to try again or type any other value to exit this program:  ")
-                if check.lower()  != 'yes':
+                check = input("Please type YES to try again or type any other value to exit this program:  ").lower()
+                if check != 'yes':
                     sys.exit("********The program has been exited successfuly********")
             else:
                 break
@@ -69,8 +69,8 @@ def get_filters():
                 print()
                 print("Sorry, I didn't understand that, kindly check your input and try again")
                 print('. '*10)
-                check = input("Please type YES to try again or type any other value to exit this program:  ")
-                if check.lower()  != 'yes':
+                check = input("Please type YES to try again or type any other value to exit this program:  ").lower()
+                if check != 'yes':
                     sys.exit("********The program has been exited successfuly********")
             else:
                 break
@@ -85,8 +85,8 @@ def get_filters():
                 print()
                 print("Sorry, I didn't understand that, kindly check your input and try again")
                 print('. '*10)
-                check = input("Please type YES to try again or type any other value to exit this program:  ")
-                if check.lower()  != 'yes':
+                check = input("Please type YES to try again or type any other value to exit this program:  ").lower()
+                if check != 'yes':
                     sys.exit("********The program has been exited successfuly********")
             else:
                 break
@@ -285,10 +285,10 @@ def gender_trip_duration_stats(df):
         max_travel_time_male = df_male['Trip Duration'].max()
         min_travel_time_male = df_male['Trip Duration'].min()
         print("Male Stats")
-        print("Total travel time - Male: ", total_travel_time_male, 'secs')
-        print("Mean travel time - Male: ", mean_travel_time_male, 'secs')
-        print("Maximum travel time - Male: ", max_travel_time_male, 'secs')
-        print("Minimum travel time - Male: ", min_travel_time_male, 'secs')
+        print("Total travel time - Male: {} secs".format(total_travel_time_male))
+        print("Mean travel time - Male: {} secs".format(mean_travel_time_male))
+        print("Maximum travel time - Male: {} secs".format(max_travel_time_male))
+        print("Minimum travel time - Male: {} secs".format(min_travel_time_male))
 
         print()
         df_female = df[df['Gender'] == 'Female']
@@ -297,10 +297,10 @@ def gender_trip_duration_stats(df):
         max_travel_time_female = df_female['Trip Duration'].max()
         min_travel_time_female = df_female['Trip Duration'].min()
         print("Female Stats")
-        print("Total travel time - Female: ", total_travel_time_female, 'secs')
-        print("Mean travel time - Female: ", mean_travel_time_female, 'secs')
-        print("Maximum travel time - Female: ", max_travel_time_female, 'secs')
-        print("Minimum travel time - Female: ", min_travel_time_female, 'secs')
+        print("Total travel time - Female: {} secs".format(total_travel_time_female))
+        print("Mean travel time - Female: {} secs".format(mean_travel_time_female))
+        print("Maximum travel time - Female: {} secs".format(max_travel_time_female))
+        print("Minimum travel time - Female: {} secs".format(min_travel_time_female))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
