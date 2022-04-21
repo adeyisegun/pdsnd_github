@@ -34,6 +34,7 @@ def get_filters():
     while True:
         """
         Asks user to specify a city, month, and day to analyze.
+        Checks user input for input error
 
         Returns:
             (str) city - name of the city to analyze
