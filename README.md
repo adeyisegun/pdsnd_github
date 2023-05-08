@@ -28,7 +28,7 @@ To download the dataset for this project, please use the following link:
 
 ## Credits
 1. Udacity - Introduction to Python Course
-2. Guru99 - Python Check If File Exists Tutorial
+2. Guru99 - [link](https://www.guru99.com/python-check-if-file-exists.html)
 
 ## Get Started
 To get started with this project, download the dataset files (chicago.csv, new_york_city.csv, washington.csv) from the provided link. Then, use Python and the associated code files to explore and analyze the data. Follow the instructions in the code files to run the script and interact with the terminal for an immersive data exploration experience. Enjoy discovering the intriguing insights hidden within the US bikeshare data!
