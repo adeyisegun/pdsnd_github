@@ -1,27 +1,34 @@
-### Date created
-21-April-2022
+# Explore US Bikeshare Data
 
-### Project Title
-Explore US Bikeshare Data
+### Date created: 21-April-2022
 
-### Description
-Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
+![Bikeshare](bikeshare.jpg)
 
-Thanks to the rise in information technologies, it is easy for a user of the system to access a dock within the system to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.
+## Description
+The Explore US Bikeshare Data project focuses on analyzing the usage patterns of bike-sharing systems in three major cities: Chicago, New York City, and Washington. The project utilizes Python to import, analyze, and compute descriptive statistics on the provided data. Additionally, an interactive terminal script is developed to present the findings.
 
-In this project, we use data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. We compared the system usage between three large cities: Chicago, New York City, and Washington.
+Bike-sharing systems have gained immense popularity over the past decade, offering users a convenient and eco-friendly mode of transportation. These systems allow individuals to rent bicycles for short durations, making point-to-point travel accessible and efficient. With the advancement of information technologies, bike-sharing systems generate vast amounts of data that can be leveraged to gain insights into usage patterns and user behavior.
 
-We make use of Python to explore data for three major cities in the United States — Chicago, New York City, and Washington. We write code to import the data and answer interesting questions about it by computing descriptive statistics. We also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+The data used for this project is provided by Motivate, a leading bike share system provider for major cities in the United States. By exploring the data, we aim to uncover interesting trends and statistics related to bike share usage in Chicago, New York City, and Washington.
 
-To download the dataset
-https://drive.google.com/file/d/1Bzi0Mm9fz0CwcMbJi9JbQw0Jc3XJ7pmc/view?usp=sharing
+## Files Used
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
-### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+## Project Highlights
+- Import and analyze bike share data using Python
+- Compute descriptive statistics to gain insights into bike share usage
+- Develop an interactive terminal script for a user-friendly experience
+- Compare and contrast bike share patterns across three major US cities
 
-### Credits
+## Dataset
+To download the dataset for this project, please use the following link:
+[US Bikeshare Data](https://drive.google.com/file/d/1Bzi0Mm9fz0CwcMbJi9JbQw0Jc3XJ7pmc/view?usp=sharing)
+
+## Credits
 1. Udacity - Introduction to Python Course
-2. https://www.guru99.com/python-check-if-file-exists.html
+2. Guru99 - Python Check If File Exists Tutorial
 
+## Get Started
+To get started with this project, download the dataset files (chicago.csv, new_york_city.csv, washington.csv) from the provided link. Then, use Python and the associated code files to explore and analyze the data. Follow the instructions in the code files to run the script and interact with the terminal for an immersive data exploration experience. Enjoy discovering the intriguing insights hidden within the US bikeshare data!
